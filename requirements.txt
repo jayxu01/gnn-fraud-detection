@@ -1,0 +1,20 @@
+# 依赖版本已锁定（本次安装的兼容组合，Python 3.11 / Windows CPU）
+# 安装（国内可用清华镜像加速）：
+#   python -m venv .venv
+#   .venv\Scripts\activate
+#   pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
+
+torch==2.14.1              # CPU 版
+torch-geometric==2.8.1
+scikit-learn==1.9.1
+scipy==1.17.1
+pandas==3.0.6
+numpy==2.4.6
+matplotlib==3.11.2
+networkx==3.6.1
+python-louvain==0.16
+
+# 开发 / 测试
+pytest==9.1.1
+ipykernel==7.4.0          # 运行 notebook 用
+nbconvert==7.17.2         # 命令行执行 notebook 用
